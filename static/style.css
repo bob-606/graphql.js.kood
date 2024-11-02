@@ -1,0 +1,158 @@
+* {
+    font-size: 25px;
+    font-family: sans-serif;
+    margin: 0;
+    color: #00F2E4;
+}
+
+body {
+    background-image: url('asset/221130_Frank_Kood_Johvi_Erlend_Staub764.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #222831;
+}
+
+#content {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#login-form {
+    background-color: #222831;
+    border: none;
+    border-radius: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 40px 70px;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    align-self: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #DFFF00;
+}
+
+label {
+    display: block;
+    color: #00F2E4;
+}
+
+input {
+    padding: 5px;
+    margin-top: 5px;
+    color: #222831;
+}
+
+button {
+    font-weight: bold;
+    padding: 5px 10px;
+    width: 100%;
+    margin-top: 10px;
+    background-color: #DFFF00;
+    color: #222831;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #C7E600;
+}
+
+.profileDiv {
+    position: absolute;
+    display: flex;
+    height: 30%;
+    margin-top: 65px;
+}
+
+#PII {
+    border: 3px solid #DFFF00;
+    border-radius: 20px;
+    margin-right: 20px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: auto;
+}
+
+.Projects {
+    border: 3px solid #DFFF00;
+    border-radius: 20px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: auto;
+}
+
+.projectInfo {
+    margin: 10px;
+    width: 80%;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #005b57;
+    text-align: center;
+    color: #222831;
+}
+
+.graphs {
+    display: flex;
+    transform: translate(6%, 40vh);
+}
+
+.auditRatioDiv {
+    margin-left: 5vw;
+}
+
+.graphLineUp,
+.graphLineRight,
+.xpColumn,
+.done,
+.recieved {
+    stroke: #DFFF00;
+}
+
+.xpColumn {
+    stroke: #00F2E4;
+}
+
+.recieved {
+    stroke: #00C4B2;
+}
+
+.customText, .ratio, .projectName {
+    font-size: 4px;
+}
+
+.ratio {
+    font-size: 5px;
+}
+
+.projectName {
+    writing-mode: tb;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #00F2E4;
+    border-radius: 100vw;
+    margin-block: 50px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    background-color: #DFFF00;
+    border-radius: 100vw;
+}
